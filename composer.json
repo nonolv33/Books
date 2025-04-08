@@ -15,15 +15,16 @@
         "doctrine/orm": "^3.3",
         "phpdocumentor/reflection-docblock": "^5.6",
         "phpstan/phpdoc-parser": "^2.1",
-        "symfony/console": "7.2.*",
-        "symfony/dotenv": "7.2.*",
+        "sensio/framework-extra-bundle": "*",
+        "symfony/console": "^6.4",
+        "symfony/dotenv": "^6.4",
         "symfony/flex": "^2",
-        "symfony/framework-bundle": "7.2.*",
-        "symfony/property-access": "7.2.*",
-        "symfony/property-info": "7.2.*",
-        "symfony/runtime": "7.2.*",
-        "symfony/serializer": "7.2.*",
-        "symfony/yaml": "7.2.*"
+        "symfony/framework-bundle": "^6.4",
+        "symfony/property-access": "^6.4",
+        "symfony/property-info": "^6.4",
+        "symfony/runtime": "^6.4",
+        "symfony/serializer": "^6.4",
+        "symfony/yaml": "^6.4"
     },
     "require-dev": {
         "doctrine/doctrine-fixtures-bundle": "*",
@@ -76,7 +77,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": false,
-            "require": "7.2.*"
+           "require": "^6.4"
         }
     }
 }
